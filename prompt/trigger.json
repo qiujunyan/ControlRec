@@ -1,0 +1,107 @@
+{
+  "rating": {
+    "1-1": [
+      "Which star rating will the user give the item ? ( 1 being lowest and 5 being highest )",
+      "What star rating do you think the user will give the item ? ( 1 being lowest and 5 being highest )",
+      "How will the user rate this business ? ( 1 being lowest and 5 being highest )",
+      "Predict the user ’s preference towards the item ( 1 being lowest and 5 being highest )"
+    ],
+    "1-2": [
+      "Will the user give item a {}-star rating for the item ? ( 1 being lowest and 5 being highest )",
+      "Will the user give the item a {}-star rating ? ( 1 being lowest and 5 being highest )",
+      "Will the user rate the item with {} stars ?"
+    ],
+    "1-3": [
+      "Does the user likes the item ?",
+      "Does the user have a preference for the item?"
+    ]
+  },
+  "sequential": {
+    "2-1": [
+      "Given the following visit history of the user , predict next possible business to be visited by the user ?",
+      "Here is the visit history list of the user , try to recommend next item to the user",
+      "Given the following visit history , predict next possible business for the user",
+      "Based on the visit history of the user , Can you decide the next business likely to be visited by the user ?"
+    ],
+    "2-2": [
+      "Here is the visit history of user , Select the next possible business likely to be visited by the user from the following candidates : {}",
+      "Given the following visit history of the user , What to recommend next for the user? Select one from the following items : {}",
+      "Based on the visit history of the user, Choose the next possible visited business from the following candidates : {}"
+    ],
+    "2-3": [
+      "The user has the following visit history , does the user likely to visit the item next ?",
+      "According to the user 's visit history list , Predict whether the user will visit the item next ?"
+    ],
+    "2-4": [
+      "Based on the following visit history of the user , does the user likely to visit one of the item in the candidate set ?",
+      "Do you believe the user will find any of the items in the candidate set appealing enough to interact with given his purchase history ?"
+    ]
+  },
+  "explanation": {
+    "3-1": [
+      "Generate an explanation for the user about this business",
+      "Help the user generate an explanation about this business",
+      "Generate an explanation for the user about this business"
+    ],
+    "3-2": [
+      "Based on the feature word {} , generate an explanation for the user about this business",
+      "Given the word {} , can you help generate an explanation for the user about the business",
+      "Use {} as feature word to generate the user 's visit explanation for the item"
+    ],
+    "3-3": [
+      "Help the user generate a {}-star explanation for the item",
+      "Generate an explanation for the item with {} rating score"
+    ],
+    "3-4": [
+      "Using the word {} , write a {}-star explanation for the user about the item",
+      "According to the feature word {} , generate a {}-star explanation for the user about the item"
+    ]
+  },
+  "review": {
+    "4-1": [
+      "Predict the associated rating score of the review written by the user : {} ( 1 being lowest and 5 being highest )",
+      "Given the following review written by the user : {} Can you predict the associated star rating ? ( 1 being lowest and 5 being highest )",
+      "According to the following review written by the user : {} Predict the associated star rating ( 1 being lowest and 5 being highest )"
+    ],
+    "4-2": [
+      "Given the user's review : {} , will the user give a {}-star rating ?",
+      "According to the following review written by the user : {} , will he rate the item with {}-star ?"
+    ],
+    "4-3": [
+      "Write a short sentence to summarize the following product review from the user",
+      "Please write a brief sentence to summarize the product review provided by the user."
+    ]
+  },
+  "traditional": {
+    "5-1": [
+      "Will the user likely to interact with the item ?",
+      "Shall we recommend the item to the user ?",
+      "For the user, do you think it is good to recommend the item ?",
+      "I would like to recommend some items for the user . Is the following item a good choice ?"
+    ],
+    "5-2": [
+      "Which item of the following to recommend for the user ?",
+      "Choose the best item from the candidates to recommend for the user ?",
+      "Pick the most suitable item from the following list and recommend to the user",
+      "We want to make recommendation for the user .  Select the best item from these candidates"
+    ],
+    "5-3": [
+      "Will the user interact with the one of the items in the candidate set ?",
+      "Do you think the user will click item in the candidate set ?"
+    ]
+  },
+  "item_desc": {
+    "6-1": [
+      "Does the description, {} , match the item ?",
+      "Does the item description match what's being offered: {}?",
+      "Does the description provided match the item: {}?"
+    ]
+  },
+  "seq_desc": {
+    "7-1": [
+      "Does the description, {} , match the user's next preferred item ?",
+      "Would the user's next preference align with the description provided: {}?",
+      "Can we confirm if the user's next preferred item matches the description: {}?"
+    ]
+  }
+}
